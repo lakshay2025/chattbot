@@ -13,7 +13,7 @@ class ChatBot:
         main_frame = Frame(self.root, bd=4, bg='red', width=610)
         main_frame.pack()
 
-        img_chat = Image.open('chat-bot.jpg')
+        img_chat = Image.open('assets/chat-bot.jpg')
         img_chat = img_chat.resize((200, 70))
         self.photoimg = ImageTk.PhotoImage(img_chat)
 
